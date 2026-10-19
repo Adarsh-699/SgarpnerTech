@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Expense Tracker</title>
+    </head>
+    <script src="script.js"></script>
+    <body>
+        <form onsubmit="handleSubmit(event)">
+           <label>Choose experiments: </label>
+           <input type="text" id="exp" name="exp">
+           <label>Choose descriptions: </label>
+           <input type="text" id="desc" name="desc">
+           <label>Choose category: </label> 
+           <select name="cat" id="cat">
+            <option value="">--Please choose an option--</option>
+            <option value="fuel">fuel</option>
+            <option value="movies">movies</option>
+            <option value="Medicines">Medicines</option>
+            <option value="Studies">Studies</option>
+           </select>
+           <button type="submit" id="btn">Add expense</button>
+        </form>
+        <ul></ul>
+    </body>
+</html>
